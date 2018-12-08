@@ -61,7 +61,7 @@ else {
 function proveri(e){
 
   e.preventDefault();  //zaustavlja slanje forme
-  let sveValidno = true;
+  sveValidno = true;
 
   proveriIme();    // provera tacnost
   proveriEmail();
